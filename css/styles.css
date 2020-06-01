@@ -294,7 +294,9 @@ h1 {
     border-radius: 22px;
     color: #AFB1B8;;
 }
-.social-links a:hover {
+.social-links a:hover,
+.social-links a:focus
+ {
     background-color: var(--accent-bg-color);
     color: var(--white-text-color);
 }
@@ -327,7 +329,8 @@ h1 {
    height: 90px;
    fill: currentColor;
 }
-.client-item a:hover {
+.client-item a:hover,
+.client-item a:focus {
     color: #2196F3;
 }
 
@@ -376,7 +379,8 @@ address span {
     color: var(--white-text-color);
     background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-social a:hover {
+.footer-social a:hover,
+.footer-social a:focus {
     background-color: var(--accent-bg-color);
 }
 .footer-content
