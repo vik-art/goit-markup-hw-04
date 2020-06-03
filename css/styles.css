@@ -302,9 +302,12 @@ h1 {
     margin-left: 10px;
 }
 .social-links a {
-    display: inline-block;
-    padding: 12px 13px;
-    border-radius: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     color: #AFB1B8;;
 }
 .social-links a:hover,
@@ -386,9 +389,12 @@ address span {
     margin-left: 10px;
 }
 .footer-social a {
-    display: inline-block;
-    padding: 12px 13px;
-    border-radius: 22px;
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50%;
     color: var(--white-text-color);
     background-color: rgba(255, 255, 255, 0.1);
 }
