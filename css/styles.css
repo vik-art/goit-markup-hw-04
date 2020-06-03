@@ -167,6 +167,17 @@ h1 {
     line-height: 1.8;
 }
 /*-----------------------------------------Что мы предлагаем---------------------------------------*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
 .heading-type {
     color: var(--primary-text-color);
 
@@ -198,9 +209,11 @@ h1 {
     background-color: var(--secondary-bg-color);
 }
 .about-us {
-    padding-top: 94px;
-    padding-bottom: 94px;
     border-bottom:  1px solid #ECECEC;
+    padding-bottom: 94px;
+}
+.first-section {
+    padding-top: 94px;
 }
 .goals img, .comand img {
     display: block;
@@ -244,7 +257,7 @@ h1 {
     margin-left: 30px;
 }
 /*------------------------------------Наша команда, наши клиенты-------------------------------------*/
-.comand, .clients {
+.third-section, .clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -401,7 +414,9 @@ address span {
     text-align: center;
 }
 /*---------------------------------------Портфолио----------------------------*/
-
+.portfolio-h {
+    border-bottom: 1px solid #ECECEC;
+}
 .projects {
     padding-top: 94px;
     padding-bottom: 94px;
